@@ -50,7 +50,7 @@ body {
   font-size: var(--normal-font-size);
   color: var(--second-color);
   /* background-color: rgb(117, 78, 78); */
-  background: linear-gradient(90deg,#C33764 0%,   #1D2671 100%);
+  background: linear-gradient(0deg,#C33764 0%,   #1D2671 100%);
   
 }
 
@@ -187,6 +187,7 @@ img {
   align-self: center;
 }
 .home__title {
+  color: #98E4FF;
   font-size: var(--big-font-size);
   margin-bottom: var(--mb-5);
 }
@@ -269,6 +270,7 @@ img {
 /* ===== SKILLS =====*/
 .skills__container {
   text-align: center;
+
 }
 .skills__subtitle {
   margin-bottom: var(--mb-2);
@@ -321,9 +323,9 @@ img {
 .skills__c {
   width: 95%;
 }
-/* .skills__java {
+.skills__java {
   width: 70%;
-} */
+}
 .skills__img {
   border-radius: 0.5rem;
 }
@@ -403,6 +405,11 @@ img {
   font-size: var(--normal-font-size);
   cursor: pointer;
   margin-left: auto;
+
+}
+.btn{
+  top: 20px;
+
 }
 
 /* ===== FOOTER =====*/
